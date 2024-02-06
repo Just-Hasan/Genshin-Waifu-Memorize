@@ -193,6 +193,7 @@ function App() {
             <Card
               key={waifu.id}
               waifu={waifu}
+              answers={answers}
               dispatch={dispatch}
               REDUCER_ACTION={REDUCER_ACTION}
             />
