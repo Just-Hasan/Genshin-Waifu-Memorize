@@ -208,7 +208,7 @@ function App() {
       <div
         className={`absolute grid w-full h-full bg-opacity-10 place-content-center scale-0 ${
           finished && "scale-100"
-        } transition-all duration-300 ease-in-out`}
+        } transition-all duration-600 ease-in-out`}
       >
         <div className="flex shadow-xl flex-col items-center p-8 bg-[#f4f4f4] w-max h-max rounded-xl">
           <img src={eulaChibi} className="w-[75%]" />
