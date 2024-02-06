@@ -1,0 +1,39 @@
+/*Font Family : Poppins*/
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* font-size: 10px; */
+  /* 10px / 16px = 0.625 = 625% */
+  /* Percentage of user's browser font-size setting */
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  background-color: #f5e8d5ff;
+  color: #555;
+}
+
+.card {
+  transform-style: preserve-3d;
+  transition: all 0.8s ease-in-out;
+}
+.front {
+  backface-visibility: hidden;
+}
+
+.back {
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+}
+
+.card.cardFlip {
+  transform: rotateY(180deg);
+}
