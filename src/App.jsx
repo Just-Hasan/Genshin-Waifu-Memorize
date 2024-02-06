@@ -198,7 +198,7 @@ function App() {
             />
           ))}
         </div>
-        <p className="text-[2px] text-center mb-[24px] font-black">
+        <p className="text-[20px] text-center mb-[24px] font-black">
           Turns: {turns}
         </p>
       </div>
